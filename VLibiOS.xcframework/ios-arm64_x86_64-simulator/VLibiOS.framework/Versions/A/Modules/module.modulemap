@@ -1,0 +1,8 @@
+framework module "VLibiOS" {
+	header "ref.h"
+    header "Vlib.objc.h"
+    header "Universe.objc.h"
+    header "VLibiOS.h"
+
+    export *
+}
